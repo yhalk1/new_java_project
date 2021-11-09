@@ -23,6 +23,7 @@ public class button_find_position_x_y {
         double elementHight = element.getSize().getHeight();
         System.out.println("Coordinates: x= " + x + " and y= " + y);
         System.out.println("Width: " + elementWidth + " and Hight " + elementHight);
+        //get button text
         System.out.println(element.getText());
         Thread.sleep(4000);
         driver.close();
